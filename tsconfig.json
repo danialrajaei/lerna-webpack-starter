@@ -15,9 +15,9 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
   },
-  "references": [
-    {
-      "path": "./packages/common"
-    }
-  ]
+  // "references": [
+  //   {
+  //     "path": "./packages/common"
+  //   }
+  // ]
 }
