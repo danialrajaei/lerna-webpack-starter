@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start:dev": "nodemon server.ts",
+    "start:dev": "nodemon ./src/server.ts",
     "start": "yarn build && node ../../dist/api/index.js",
     "build": "yarn clear && webpack -c ./webpack.prod.js",
     "build:dev": "yarn clear && webpack -c ./webpack.dev.js",
-    "clear": "rimraf ../../dist/api"
+    "clear": "rimraf -rf ../../dist/api"
   },
   "dependencies": {
     "express": "~4.16.1"
